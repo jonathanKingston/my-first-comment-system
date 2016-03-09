@@ -2,17 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; child-src 'self'" />
   </head>
   <body>
     <header>
       <h1>My first comment system</h1>
     </header>
     <main>
-      <form target="comments" action="comments.html" >
+      <form target="comments" action="comments2.html" >
         <label for="issue">Issue number</label>
         <input name="issue" value="1">
       </form>
-      <iframe src="comments.html?issue=1" sandbox="allow-scripts allow-popups" name="comments" ></iframe>
+      <iframe src="comments2.html?issue=1" sandbox="allow-scripts allow-popups" name="comments" ></iframe>
     </main>
     <footer>
       &copy; Bobby tables

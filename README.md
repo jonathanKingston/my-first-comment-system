@@ -1,5 +1,3 @@
-# Sample HTML template
+# CSP demo
 
-So this is just some sample code to help make code faster as I always type these n lines again and again.
-
-If this doesn't help you or you have an urge to tell me about Yeoman or something I know about them.
+**Yes this demo was designed to be insecure, I suggest you never think of using it for a website!**

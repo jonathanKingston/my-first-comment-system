@@ -1,0 +1,23 @@
+{
+  "name": "my-first-comment-system",
+  "version": "1.0.0",
+  "description": "**Yes this demo was designed to be insecure, I suggest you never think of using it for a website!**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanKingston/sample-html-template.git"
+  },
+  "author": "Jonathan Kingston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanKingston/sample-html-template/issues"
+  },
+  "homepage": "https://github.com/jonathanKingston/sample-html-template#readme",
+  "dependencies": {
+    "finalhandler": "^0.4.1",
+    "serve-static": "^1.10.2"
+  }
+}

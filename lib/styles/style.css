@@ -18,4 +18,33 @@ body, html {
 
 body {
   font-family: arial, helvetica, verdana, sans-serif;
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  flex: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+.comment {
+  margin: 1rem;
+  background: #eee;
+  display: flex;
+}
+
+.comment .body {
+  flex: 1;
+}
+
+.avatar {
+  color: purple;
+  max-width: 69px;
+  max-height: 69px;
 }
